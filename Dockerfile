@@ -1,4 +1,4 @@
-FROM wordpress:6.5.0-php8.1-apache
+FROM wordpress:6.5.2-php8.1-apache
 
 COPY custom-php.ini /usr/local/etc/php/conf.d/custom-php.ini
 
